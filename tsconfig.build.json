@@ -5,8 +5,8 @@
   "compilerOptions": {
     "rootDir": "./dist/src",
     "paths": {
-      "djelia-sdk/*": ["dist/src/*"],
-      "djelia-sdk": ["dist/src/index.ts"],
+      "djelia/*": ["dist/src/*"],
+      "djelia": ["dist/src/index.ts"],
     },
     "noEmit": false,
     "declaration": true,

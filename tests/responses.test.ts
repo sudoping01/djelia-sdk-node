@@ -1,5 +1,5 @@
-import { createResponseHeaders } from 'djelia-sdk/core';
-import { Headers } from 'djelia-sdk/_shims/index';
+import { createResponseHeaders } from 'djelia/core';
+import { Headers } from 'djelia/_shims/index';
 
 describe('response parsing', () => {
   // TODO: test unicode characters
