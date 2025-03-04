@@ -1,6 +1,6 @@
 {
   "name": "djelia-sdk",
-  "version": "0.0.1-alpha.2",
+  "version": "0.0.1-alpha.3",
   "description": "The official TypeScript library for the Djelia SDK API",
   "author": "Djelia SDK <dev-feedback@djelia-sdk.com>",
   "types": "dist/index.d.ts",
