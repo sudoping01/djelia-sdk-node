@@ -55,12 +55,12 @@ $ cd djelia-sdk-node
 # With yarn
 $ yarn link
 $ cd ../my-package
-$ yarn link djelia
+$ yarn link djelia-sdk
 
 # With pnpm
 $ pnpm link --global
 $ cd ../my-package
-$ pnpm link -—global djelia
+$ pnpm link -—global djelia-sdk
 ```
 
 ## Running tests

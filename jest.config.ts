@@ -7,9 +7,9 @@ const config: JestConfigWithTsJest = {
     '^.+\\.(t|j)sx?$': ['@swc/jest', { sourceMaps: 'inline' }],
   },
   moduleNameMapper: {
-    '^djelia$': '<rootDir>/src/index.ts',
-    '^djelia/_shims/auto/(.*)$': '<rootDir>/src/_shims/auto/$1-node',
-    '^djelia/(.*)$': '<rootDir>/src/$1',
+    '^djelia-sdk$': '<rootDir>/src/index.ts',
+    '^djelia-sdk/_shims/auto/(.*)$': '<rootDir>/src/_shims/auto/$1-node',
+    '^djelia-sdk/(.*)$': '<rootDir>/src/$1',
   },
   modulePathIgnorePatterns: [
     '<rootDir>/ecosystem-tests/',
