@@ -4,8 +4,8 @@
 /**
  * Types will get added to this namespace when you import one of the following:
  *
- *   import 'djelia-sdk/shims/node'
- *   import 'djelia-sdk/shims/web'
+ *   import 'djelia/shims/node'
+ *   import 'djelia/shims/web'
  *
  * Importing more than one will cause type and runtime errors.
  */

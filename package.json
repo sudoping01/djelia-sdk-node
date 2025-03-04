@@ -1,5 +1,5 @@
 {
-  "name": "djelia-sdk",
+  "name": "djelia",
   "version": "0.0.1-alpha.1",
   "description": "The official TypeScript library for the Djelia SDK API",
   "author": "Djelia SDK <dev-feedback@djelia-sdk.com>",
@@ -59,8 +59,8 @@
     "./shims/web.mjs"
   ],
   "imports": {
-    "djelia-sdk": ".",
-    "djelia-sdk/*": "./src/*"
+    "djelia": ".",
+    "djelia/*": "./src/*"
   },
   "exports": {
     "./_shims/auto/*": {
