@@ -1,6 +1,6 @@
-import { multipartFormRequestOptions, createForm } from 'djelia/core';
-import { Blob } from 'djelia/_shims/index';
-import { toFile } from 'djelia';
+import { multipartFormRequestOptions, createForm } from 'djelia-sdk/core';
+import { Blob } from 'djelia-sdk/_shims/index';
+import { toFile } from 'djelia-sdk';
 
 describe('form data validation', () => {
   test('valid values do not error', async () => {

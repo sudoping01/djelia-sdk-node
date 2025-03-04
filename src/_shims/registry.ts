@@ -42,11 +42,13 @@ export let isFsReadStream: Shims['isFsReadStream'] | undefined = undefined;
 export function setShims(shims: Shims, options: { auto: boolean } = { auto: false }) {
   if (auto) {
     throw new Error(
-      `you must \`import 'djelia/shims/${shims.kind}'\` before importing anything else from djelia`,
+      `you must \`import 'djelia-sdk/shims/${shims.kind}'\` before importing anything else from djelia-sdk`,
     );
   }
   if (kind) {
-    throw new Error(`can't \`import 'djelia/shims/${shims.kind}'\` after \`import 'djelia/shims/${kind}'\``);
+    throw new Error(
+      `can't \`import 'djelia-sdk/shims/${shims.kind}'\` after \`import 'djelia-sdk/shims/${kind}'\``,
+    );
   }
   auto = options.auto;
   kind = shims.kind;
