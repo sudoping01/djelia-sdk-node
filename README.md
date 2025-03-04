@@ -1,6 +1,6 @@
 # Djelia SDK Node API Library
 
-[![NPM version](https://img.shields.io/npm/v/djelia-sdk.svg)](https://npmjs.org/package/djelia-sdk) ![npm bundle size](https://img.shields.io/bundlephobia/minzip/djelia-sdk)
+[![NPM version](https://img.shields.io/npm/v/djelia.svg)](https://npmjs.org/package/djelia) ![npm bundle size](https://img.shields.io/bundlephobia/minzip/djelia)
 
 This library provides convenient access to the Djelia SDK REST API from server-side TypeScript or JavaScript.
 
@@ -11,7 +11,7 @@ The REST API documentation can be found on [docs.djelia-sdk.com](https://docs.dj
 ## Installation
 
 ```sh
-npm install djelia-sdk
+npm install djelia
 ```
 
 ## Usage
@@ -20,7 +20,7 @@ The full API of this library can be found in [api.md](api.md).
 
 <!-- prettier-ignore -->
 ```js
-import DjeliaSDK from 'djelia-sdk';
+import DjeliaSDK from 'djelia';
 
 const client = new DjeliaSDK({
   apiKey: process.env['DJELIA_SDK_API_KEY'], // This is the default and can be omitted
@@ -39,7 +39,7 @@ This library includes TypeScript definitions for all request params and response
 
 <!-- prettier-ignore -->
 ```ts
-import DjeliaSDK from 'djelia-sdk';
+import DjeliaSDK from 'djelia';
 
 const client = new DjeliaSDK({
   apiKey: process.env['DJELIA_SDK_API_KEY'], // This is the default and can be omitted
@@ -67,7 +67,7 @@ Request parameters that correspond to file uploads can be passed in many differe
 ```ts
 import fs from 'fs';
 import fetch from 'node-fetch';
-import DjeliaSDK, { toFile } from 'djelia-sdk';
+import DjeliaSDK, { toFile } from 'djelia';
 
 const client = new DjeliaSDK();
 
@@ -245,11 +245,11 @@ add the following import before your first import `from "DjeliaSDK"`:
 ```ts
 // Tell TypeScript and the package to use the global web fetch instead of node-fetch.
 // Note, despite the name, this does not add any polyfills, but expects them to be provided if needed.
-import 'djelia-sdk/shims/web';
-import DjeliaSDK from 'djelia-sdk';
+import 'djelia/shims/web';
+import DjeliaSDK from 'djelia';
 ```
 
-To do the inverse, add `import "djelia-sdk/shims/node"` (which does import polyfills).
+To do the inverse, add `import "djelia/shims/node"` (which does import polyfills).
 This can also be useful if you are getting the wrong TypeScript types for `Response` ([more details](https://github.com/sudoping01/djelia-sdk-node/tree/main/src/_shims#readme)).
 
 ### Logging and middleware
@@ -259,7 +259,7 @@ which can be used to inspect or alter the `Request` or `Response` before/after e
 
 ```ts
 import { fetch } from 'undici'; // as one example
-import DjeliaSDK from 'djelia-sdk';
+import DjeliaSDK from 'djelia';
 
 const client = new DjeliaSDK({
   fetch: async (url: RequestInfo, init?: RequestInit): Promise<Response> => {
