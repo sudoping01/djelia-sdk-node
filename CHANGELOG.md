@@ -1,5 +1,13 @@
 # Changelog
 
+## 0.0.1-alpha.3 (2025-03-04)
+
+Full Changelog: [v0.0.1-alpha.2...v0.0.1-alpha.3](https://github.com/sudoping01/djelia-sdk-node/compare/v0.0.1-alpha.2...v0.0.1-alpha.3)
+
+### Chores
+
+* update SDK settings ([#9](https://github.com/sudoping01/djelia-sdk-node/issues/9)) ([ef8144f](https://github.com/sudoping01/djelia-sdk-node/commit/ef8144f86a384eba6f9f8ae71f12d349952372b8))
+
 ## 0.0.1-alpha.2 (2025-03-04)
 
 Full Changelog: [v0.0.1-alpha.1...v0.0.1-alpha.2](https://github.com/sudoping01/djelia-sdk-node/compare/v0.0.1-alpha.1...v0.0.1-alpha.2)

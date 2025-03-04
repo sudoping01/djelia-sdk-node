@@ -1,8 +1,8 @@
 // File generated from our OpenAPI spec by Stainless. See CONTRIBUTING.md for details.
 
-import DjeliaSDK from 'djelia';
-import { APIUserAbortError } from 'djelia';
-import { Headers } from 'djelia/core';
+import DjeliaSDK from 'djelia-sdk';
+import { APIUserAbortError } from 'djelia-sdk';
+import { Headers } from 'djelia-sdk/core';
 import defaultFetch, { Response, type RequestInit, type RequestInfo } from 'node-fetch';
 
 describe('instantiate client', () => {
