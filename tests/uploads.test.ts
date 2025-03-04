@@ -1,6 +1,6 @@
 import fs from 'fs';
-import { toFile, type ResponseLike } from 'djelia/uploads';
-import { File } from 'djelia/_shims/index';
+import { toFile, type ResponseLike } from 'djelia-sdk/uploads';
+import { File } from 'djelia-sdk/_shims/index';
 
 class MyClass {
   name: string = 'foo';

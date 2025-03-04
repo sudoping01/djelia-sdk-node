@@ -9,9 +9,9 @@
     "esModuleInterop": true,
     "baseUrl": "./",
     "paths": {
-      "djelia/_shims/auto/*": ["src/_shims/auto/*-node"],
-      "djelia/*": ["src/*"],
-      "djelia": ["src/index.ts"]
+      "djelia-sdk/_shims/auto/*": ["src/_shims/auto/*-node"],
+      "djelia-sdk/*": ["src/*"],
+      "djelia-sdk": ["src/index.ts"]
     },
     "noEmit": true,
 

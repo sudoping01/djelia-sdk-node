@@ -1,6 +1,6 @@
 // File generated from our OpenAPI spec by Stainless. See CONTRIBUTING.md for details.
 
-import DjeliaSDK, { toFile } from 'djelia';
+import DjeliaSDK, { toFile } from 'djelia-sdk';
 import { Response } from 'node-fetch';
 
 const client = new DjeliaSDK({
