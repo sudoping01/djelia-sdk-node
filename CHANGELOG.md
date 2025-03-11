@@ -1,5 +1,14 @@
 # Changelog
 
+## 0.1.0-alpha.1 (2025-03-11)
+
+Full Changelog: [v0.0.1-alpha.3...v0.1.0-alpha.1](https://github.com/sudoping01/djelia-sdk-node/compare/v0.0.1-alpha.3...v0.1.0-alpha.1)
+
+### Features
+
+* add SKIP_BREW env var to ./scripts/bootstrap ([#12](https://github.com/sudoping01/djelia-sdk-node/issues/12)) ([7dc7603](https://github.com/sudoping01/djelia-sdk-node/commit/7dc7603c750b22d340e6c127a4898c3f1aa95637))
+* **client:** accept RFC6838 JSON content types ([#14](https://github.com/sudoping01/djelia-sdk-node/issues/14)) ([1d1b4bb](https://github.com/sudoping01/djelia-sdk-node/commit/1d1b4bbce5b585ec7b2e739d340d27dac466a2eb))
+
 ## 0.0.1-alpha.3 (2025-03-04)
 
 Full Changelog: [v0.0.1-alpha.2...v0.0.1-alpha.3](https://github.com/sudoping01/djelia-sdk-node/compare/v0.0.1-alpha.2...v0.0.1-alpha.3)
