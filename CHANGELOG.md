@@ -1,5 +1,18 @@
 # Changelog
 
+## 0.1.0-alpha.2 (2025-03-14)
+
+Full Changelog: [v0.1.0-alpha.1...v0.1.0-alpha.2](https://github.com/sudoping01/djelia-sdk-node/compare/v0.1.0-alpha.1...v0.1.0-alpha.2)
+
+### Bug Fixes
+
+* **exports:** ensure resource imports don't require /index ([#18](https://github.com/sudoping01/djelia-sdk-node/issues/18)) ([1df46c8](https://github.com/sudoping01/djelia-sdk-node/commit/1df46c8d6e73d2ceb6b384faea1f45f4c7ba3345))
+
+
+### Chores
+
+* **internal:** remove extra empty newlines ([#16](https://github.com/sudoping01/djelia-sdk-node/issues/16)) ([3b0f15e](https://github.com/sudoping01/djelia-sdk-node/commit/3b0f15ec919dbd4ba57dc30375c0740310f3e7bc))
+
 ## 0.1.0-alpha.1 (2025-03-11)
 
 Full Changelog: [v0.0.1-alpha.3...v0.1.0-alpha.1](https://github.com/sudoping01/djelia-sdk-node/compare/v0.0.1-alpha.3...v0.1.0-alpha.1)
