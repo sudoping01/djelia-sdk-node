@@ -1,5 +1,13 @@
 # Changelog
 
+## 0.1.0-alpha.3 (2025-03-22)
+
+Full Changelog: [v0.1.0-alpha.2...v0.1.0-alpha.3](https://github.com/sudoping01/djelia-sdk-node/compare/v0.1.0-alpha.2...v0.1.0-alpha.3)
+
+### Bug Fixes
+
+* avoid type error in certain environments ([#22](https://github.com/sudoping01/djelia-sdk-node/issues/22)) ([dc4af94](https://github.com/sudoping01/djelia-sdk-node/commit/dc4af9470666f64fb5f6f893bfc2a09a2c42dc3c))
+
 ## 0.1.0-alpha.2 (2025-03-20)
 
 Full Changelog: [v0.1.0-alpha.1...v0.1.0-alpha.2](https://github.com/sudoping01/djelia-sdk-node/compare/v0.1.0-alpha.1...v0.1.0-alpha.2)
