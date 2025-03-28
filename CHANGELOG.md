@@ -1,5 +1,13 @@
 # Changelog
 
+## 0.1.0-alpha.4 (2025-03-28)
+
+Full Changelog: [v0.1.0-alpha.3...v0.1.0-alpha.4](https://github.com/sudoping01/djelia-sdk-node/compare/v0.1.0-alpha.3...v0.1.0-alpha.4)
+
+### Bug Fixes
+
+* **internal:** work around https://github.com/vercel/next.js/issues/76881 ([#25](https://github.com/sudoping01/djelia-sdk-node/issues/25)) ([93d5e42](https://github.com/sudoping01/djelia-sdk-node/commit/93d5e42b828cae8e8aaf6c9c6a4c5e1d26365cf4))
+
 ## 0.1.0-alpha.3 (2025-03-22)
 
 Full Changelog: [v0.1.0-alpha.2...v0.1.0-alpha.3](https://github.com/sudoping01/djelia-sdk-node/compare/v0.1.0-alpha.2...v0.1.0-alpha.3)
