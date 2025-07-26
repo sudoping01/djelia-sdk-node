@@ -1,2 +1,4 @@
 configured_endpoints: 5
 openapi_spec_url: https://storage.googleapis.com/stainless-sdk-openapi-specs/djelia%2Fdjelia-sdk-4e11fa48f001b7475e15db8225c101fc23989afd2439a22f828790c562a6eb92.yml
+openapi_spec_hash: b6a3302fef8138aa07fbf9f2845a4d66
+config_hash: 116bca65fab0da26170fbe686f4f0712

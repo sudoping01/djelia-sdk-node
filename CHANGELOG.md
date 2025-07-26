@@ -1,5 +1,34 @@
 # Changelog
 
+## 0.1.0-alpha.4 (2025-05-22)
+
+Full Changelog: [v0.1.0-alpha.3...v0.1.0-alpha.4](https://github.com/sudoping01/djelia-sdk-node/compare/v0.1.0-alpha.3...v0.1.0-alpha.4)
+
+### Bug Fixes
+
+* **api:** improve type resolution when importing as a package ([#29](https://github.com/sudoping01/djelia-sdk-node/issues/29)) ([b89f1e0](https://github.com/sudoping01/djelia-sdk-node/commit/b89f1e0c1c97b1607f193696d56d9d2a17678891))
+* **client:** send `X-Stainless-Timeout` in seconds ([#27](https://github.com/sudoping01/djelia-sdk-node/issues/27)) ([8e61540](https://github.com/sudoping01/djelia-sdk-node/commit/8e615401cf599bd99f7015fc85edc061b29f197a))
+* **internal:** work around https://github.com/vercel/next.js/issues/76881 ([#25](https://github.com/sudoping01/djelia-sdk-node/issues/25)) ([93d5e42](https://github.com/sudoping01/djelia-sdk-node/commit/93d5e42b828cae8e8aaf6c9c6a4c5e1d26365cf4))
+* **mcp:** remove unused tools.ts ([#30](https://github.com/sudoping01/djelia-sdk-node/issues/30)) ([0939611](https://github.com/sudoping01/djelia-sdk-node/commit/0939611aea4cd28189f7d422bd13801b66a332aa))
+
+
+### Chores
+
+* **ci:** add timeout thresholds for CI jobs ([d81fc16](https://github.com/sudoping01/djelia-sdk-node/commit/d81fc16582014b485324670c9b5256a76e1d4beb))
+* **ci:** bump node version for release workflows ([0d54413](https://github.com/sudoping01/djelia-sdk-node/commit/0d544133f0ed6ce9279457d6aa3dc7bcc6ae4b41))
+* **ci:** only use depot for staging repos ([d4c926c](https://github.com/sudoping01/djelia-sdk-node/commit/d4c926c1398bf3b240c894d938747b0cb7a2a48d))
+* **client:** minor internal fixes ([d9200e3](https://github.com/sudoping01/djelia-sdk-node/commit/d9200e3da4cde4af29494ace39ee654f3427d984))
+* **docs:** grammar improvements ([a1bacf7](https://github.com/sudoping01/djelia-sdk-node/commit/a1bacf7b8afc69090162bcc484cedf090919b527))
+* **internal:** add aliases for Record and Array ([#28](https://github.com/sudoping01/djelia-sdk-node/issues/28)) ([9194c8d](https://github.com/sudoping01/djelia-sdk-node/commit/9194c8d312cf3060ded1f394005f037790450bdc))
+* **internal:** codegen related update ([f5d9cf4](https://github.com/sudoping01/djelia-sdk-node/commit/f5d9cf44bd71d35e78ff4175b010bd31815009c0))
+* **internal:** reduce CI branch coverage ([955560b](https://github.com/sudoping01/djelia-sdk-node/commit/955560bc7727a50fa67c084452f46017ae26ba59))
+* **internal:** upload builds and expand CI branch coverage ([5ac22d0](https://github.com/sudoping01/djelia-sdk-node/commit/5ac22d092d10df98dafc8b09ab9d82ec226c4a79))
+
+
+### Documentation
+
+* **readme:** fix typo ([4f4b0f8](https://github.com/sudoping01/djelia-sdk-node/commit/4f4b0f8ae42aa498e0d8c9a32e301db7ec55069f))
+
 ## 0.1.0-alpha.3 (2025-03-22)
 
 Full Changelog: [v0.1.0-alpha.2...v0.1.0-alpha.3](https://github.com/sudoping01/djelia-sdk-node/compare/v0.1.0-alpha.2...v0.1.0-alpha.3)
