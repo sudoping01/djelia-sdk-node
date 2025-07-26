@@ -26,11 +26,7 @@ const client = new DjeliaSDK({
   apiKey: process.env['DJELIA_SDK_API_KEY'], // This is the default and can be omitted
 });
 
-async function main() {
-  const response = await client.api.v1.models.translate.listSupportedLanguages();
-}
-
-main();
+const response = await client.api.v1.models.translate.listSupportedLanguages();
 ```
 
 ### Request & Response types
@@ -45,12 +41,8 @@ const client = new DjeliaSDK({
   apiKey: process.env['DJELIA_SDK_API_KEY'], // This is the default and can be omitted
 });
 
-async function main() {
-  const response: DjeliaSDK.API.V1.Models.TranslateListSupportedLanguagesResponse =
-    await client.api.v1.models.translate.listSupportedLanguages();
-}
-
-main();
+const response: DjeliaSDK.API.V1.Models.TranslateListSupportedLanguagesResponse =
+  await client.api.v1.models.translate.listSupportedLanguages();
 ```
 
 Documentation for each method, request param, and response field are available in docstrings and will appear on hover in most modern editors.
@@ -97,19 +89,15 @@ a subclass of `APIError` will be thrown:
 
 <!-- prettier-ignore -->
 ```ts
-async function main() {
-  const response = await client.api.v1.models.translate.listSupportedLanguages().catch(async (err) => {
-    if (err instanceof DjeliaSDK.APIError) {
-      console.log(err.status); // 400
-      console.log(err.name); // BadRequestError
-      console.log(err.headers); // {server: 'nginx', ...}
-    } else {
-      throw err;
-    }
-  });
-}
-
-main();
+const response = await client.api.v1.models.translate.listSupportedLanguages().catch(async (err) => {
+  if (err instanceof DjeliaSDK.APIError) {
+    console.log(err.status); // 400
+    console.log(err.name); // BadRequestError
+    console.log(err.headers); // {server: 'nginx', ...}
+  } else {
+    throw err;
+  }
+});
 ```
 
 Error codes are as follows:
