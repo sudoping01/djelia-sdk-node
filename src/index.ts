@@ -169,6 +169,7 @@ export class DjeliaSDK extends Core.APIClient {
 }
 
 DjeliaSDK.API = ApiapiAPI;
+
 export declare namespace DjeliaSDK {
   export type RequestOptions = Core.RequestOptions;
 
