@@ -1,5 +1,28 @@
 # Changelog
 
+## 0.1.0-alpha.5 (2025-10-08)
+
+Full Changelog: [v0.1.0-alpha.4...v0.1.0-alpha.5](https://github.com/sudoping01/djelia-sdk-node/compare/v0.1.0-alpha.4...v0.1.0-alpha.5)
+
+### Bug Fixes
+
+* coerce nullable values to undefined ([174d318](https://github.com/sudoping01/djelia-sdk-node/commit/174d3181e16361b9de104d3ce6b01b5a0166c9dc))
+
+
+### Chores
+
+* ci build action ([fa39e73](https://github.com/sudoping01/djelia-sdk-node/commit/fa39e732f7b4a78c10bcb9d70ffb15b4fbe8a861))
+* **deps:** update dependency node-fetch to v2.6.13 ([c4f6aa7](https://github.com/sudoping01/djelia-sdk-node/commit/c4f6aa7119acceb739d49fc8d6851a51c75ed982))
+* do not install brew dependencies in ./scripts/bootstrap by default ([c20ca13](https://github.com/sudoping01/djelia-sdk-node/commit/c20ca133d0096e8e956e359cfccb4660ea825a3a))
+* **internal:** codegen related update ([c379af1](https://github.com/sudoping01/djelia-sdk-node/commit/c379af1b06e3849d1c1955896ae0d18e6df3836d))
+* **internal:** codegen related update ([ccd71e9](https://github.com/sudoping01/djelia-sdk-node/commit/ccd71e9537f82fd6894eeb70b671568e59c4a212))
+* **internal:** formatting change ([6094751](https://github.com/sudoping01/djelia-sdk-node/commit/609475108c490901f9c62f41e3419683ee6baefc))
+* **internal:** move publish config ([fb1f01b](https://github.com/sudoping01/djelia-sdk-node/commit/fb1f01bd52e07c0087bde0be4387e6e25a9db7b7))
+* **internal:** remove redundant imports config ([896b86b](https://github.com/sudoping01/djelia-sdk-node/commit/896b86bcc63c0eb02238d043b4865fb435d2cb03))
+* **internal:** update comment in script ([735642b](https://github.com/sudoping01/djelia-sdk-node/commit/735642b2d8e8e166111bec8d0783eae93b26856e))
+* update @stainless-api/prism-cli to v5.15.0 ([16916b9](https://github.com/sudoping01/djelia-sdk-node/commit/16916b98c1266ec923dfe478edc6cbfd136b9bb1))
+* update CI script ([0d1faae](https://github.com/sudoping01/djelia-sdk-node/commit/0d1faae32d1ce5947578674519d08464e931b144))
+
 ## 0.1.0-alpha.4 (2025-05-22)
 
 Full Changelog: [v0.1.0-alpha.3...v0.1.0-alpha.4](https://github.com/sudoping01/djelia-sdk-node/compare/v0.1.0-alpha.3...v0.1.0-alpha.4)
