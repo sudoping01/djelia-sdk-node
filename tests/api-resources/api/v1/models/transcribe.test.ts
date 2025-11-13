@@ -9,7 +9,7 @@ const client = new DjeliaSDK({
 });
 
 describe('resource transcribe', () => {
-  // skipped: tests are disabled for the time being
+  // Prism tests are disabled
   test.skip('createTranscription: only required params', async () => {
     const responsePromise = client.api.v1.models.transcribe.createTranscription({
       file: await toFile(Buffer.from('# my file contents'), 'README.md'),
@@ -23,7 +23,7 @@ describe('resource transcribe', () => {
     expect(dataAndResponse.response).toBe(rawResponse);
   });
 
-  // skipped: tests are disabled for the time being
+  // Prism tests are disabled
   test.skip('createTranscription: required and optional params', async () => {
     const response = await client.api.v1.models.transcribe.createTranscription({
       file: await toFile(Buffer.from('# my file contents'), 'README.md'),
@@ -31,7 +31,7 @@ describe('resource transcribe', () => {
     });
   });
 
-  // skipped: tests are disabled for the time being
+  // Prism tests are disabled
   test.skip('streamTranscription: only required params', async () => {
     const responsePromise = client.api.v1.models.transcribe.streamTranscription({
       file: await toFile(Buffer.from('# my file contents'), 'README.md'),
@@ -45,7 +45,7 @@ describe('resource transcribe', () => {
     expect(dataAndResponse.response).toBe(rawResponse);
   });
 
-  // skipped: tests are disabled for the time being
+  // Prism tests are disabled
   test.skip('streamTranscription: required and optional params', async () => {
     const response = await client.api.v1.models.transcribe.streamTranscription({
       file: await toFile(Buffer.from('# my file contents'), 'README.md'),

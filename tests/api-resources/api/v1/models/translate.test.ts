@@ -9,7 +9,7 @@ const client = new DjeliaSDK({
 });
 
 describe('resource translate', () => {
-  // skipped: tests are disabled for the time being
+  // Prism tests are disabled
   test.skip('createTranslation: only required params', async () => {
     const responsePromise = client.api.v1.models.translate.createTranslation({
       source: 'fra_Latn',
@@ -25,7 +25,7 @@ describe('resource translate', () => {
     expect(dataAndResponse.response).toBe(rawResponse);
   });
 
-  // skipped: tests are disabled for the time being
+  // Prism tests are disabled
   test.skip('createTranslation: required and optional params', async () => {
     const response = await client.api.v1.models.translate.createTranslation({
       source: 'fra_Latn',
@@ -34,7 +34,7 @@ describe('resource translate', () => {
     });
   });
 
-  // skipped: tests are disabled for the time being
+  // Prism tests are disabled
   test.skip('listSupportedLanguages', async () => {
     const responsePromise = client.api.v1.models.translate.listSupportedLanguages();
     const rawResponse = await responsePromise.asResponse();
@@ -46,7 +46,7 @@ describe('resource translate', () => {
     expect(dataAndResponse.response).toBe(rawResponse);
   });
 
-  // skipped: tests are disabled for the time being
+  // Prism tests are disabled
   test.skip('listSupportedLanguages: request options instead of params are passed correctly', async () => {
     // ensure the request options are being passed correctly by passing an invalid HTTP method in order to cause an error
     await expect(

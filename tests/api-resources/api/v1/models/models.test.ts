@@ -9,7 +9,7 @@ const client = new DjeliaSDK({
 });
 
 describe('resource models', () => {
-  // skipped: tests are disabled for the time being
+  // Prism tests are disabled
   test.skip('createSpeech: only required params', async () => {
     const responsePromise = client.api.v1.models.createSpeech({ text: 'text' });
     const rawResponse = await responsePromise.asResponse();
@@ -21,7 +21,7 @@ describe('resource models', () => {
     expect(dataAndResponse.response).toBe(rawResponse);
   });
 
-  // skipped: tests are disabled for the time being
+  // Prism tests are disabled
   test.skip('createSpeech: required and optional params', async () => {
     const response = await client.api.v1.models.createSpeech({ text: 'text', speaker: 0 });
   });
