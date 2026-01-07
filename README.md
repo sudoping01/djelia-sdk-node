@@ -64,13 +64,17 @@ import DjeliaSDK, { toFile } from 'djelia-sdk';
 const client = new DjeliaSDK();
 
 // If you have access to Node `fs` we recommend using `fs.createReadStream()`:
-await client.api.v1.models.transcribe.createTranscription({ file: fs.createReadStream('/path/to/file') });
+await client.api.v1.models.transcribe.createTranscription({
+  file: fs.createReadStream('/path/to/file'),
+});
 
 // Or if you have the web `File` API you can pass a `File` instance:
 await client.api.v1.models.transcribe.createTranscription({ file: new File(['my bytes'], 'file') });
 
 // You can also pass a `fetch` `Response`:
-await client.api.v1.models.transcribe.createTranscription({ file: await fetch('https://somesite/file') });
+await client.api.v1.models.transcribe.createTranscription({
+  file: await fetch('https://somesite/file'),
+});
 
 // Finally, if none of the above are convenient, you can use our `toFile` helper:
 await client.api.v1.models.transcribe.createTranscription({
@@ -89,15 +93,17 @@ a subclass of `APIError` will be thrown:
 
 <!-- prettier-ignore -->
 ```ts
-const response = await client.api.v1.models.translate.listSupportedLanguages().catch(async (err) => {
-  if (err instanceof DjeliaSDK.APIError) {
-    console.log(err.status); // 400
-    console.log(err.name); // BadRequestError
-    console.log(err.headers); // {server: 'nginx', ...}
-  } else {
-    throw err;
-  }
-});
+const response = await client.api.v1.models.translate
+  .listSupportedLanguages()
+  .catch(async (err) => {
+    if (err instanceof DjeliaSDK.APIError) {
+      console.log(err.status); // 400
+      console.log(err.name); // BadRequestError
+      console.log(err.headers); // {server: 'nginx', ...}
+    } else {
+      throw err;
+    }
+  });
 ```
 
 Error codes are as follows:
