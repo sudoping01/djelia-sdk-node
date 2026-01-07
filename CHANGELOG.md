@@ -1,5 +1,22 @@
 # Changelog
 
+## 0.1.0-alpha.6 (2026-01-07)
+
+Full Changelog: [v0.1.0-alpha.5...v0.1.0-alpha.6](https://github.com/sudoping01/djelia-sdk-node/compare/v0.1.0-alpha.5...v0.1.0-alpha.6)
+
+### Bug Fixes
+
+* **mcp:** correct code tool API endpoint ([c1062d6](https://github.com/sudoping01/djelia-sdk-node/commit/c1062d60439ed946f3f2802f66881cb9aa97bd10))
+* **mcp:** return correct lines on typescript errors ([7c902e3](https://github.com/sudoping01/djelia-sdk-node/commit/7c902e377242bb7958469348eed0ca9c0bebbe6c))
+
+
+### Chores
+
+* break long lines in snippets into multiline ([e88dd0b](https://github.com/sudoping01/djelia-sdk-node/commit/e88dd0bad147dd7fa7dda6197d168f6cabc057bb))
+* **internal:** codegen related update ([905ebe0](https://github.com/sudoping01/djelia-sdk-node/commit/905ebe00f34838a7612bd217f63ba0c0c37638ef))
+* **internal:** codegen related update ([32b0600](https://github.com/sudoping01/djelia-sdk-node/commit/32b06009f5a5aa07dbfe63487a1e9db145ed4f80))
+* **internal:** codegen related update ([b92fd62](https://github.com/sudoping01/djelia-sdk-node/commit/b92fd623479bb9335433775de2c69b6d8afa42f4))
+
 ## 0.1.0-alpha.5 (2025-10-08)
 
 Full Changelog: [v0.1.0-alpha.4...v0.1.0-alpha.5](https://github.com/sudoping01/djelia-sdk-node/compare/v0.1.0-alpha.4...v0.1.0-alpha.5)
