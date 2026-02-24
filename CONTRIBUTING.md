@@ -60,7 +60,7 @@ $ yarn link djelia-sdk
 # With pnpm
 $ pnpm link --global
 $ cd ../my-package
-$ pnpm link -—global djelia-sdk
+$ pnpm link --global djelia-sdk
 ```
 
 ## Running tests
