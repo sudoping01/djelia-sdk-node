@@ -14,7 +14,7 @@ jobs:
     name: lint
     runs-on: ${{ github.repository == 'stainless-sdks/djelia-sdk-node' && 'depot-ubuntu-24.04' || 'ubuntu-latest' }}
     steps:
-      - uses: actions/checkout@v4
+      - uses: actions/checkout@v6
 
       - name: Set up Node
         uses: actions/setup-node@v4
@@ -35,7 +35,7 @@ jobs:
       contents: read
       id-token: write
     steps:
-      - uses: actions/checkout@v4
+      - uses: actions/checkout@v6
 
       - name: Set up Node
         uses: actions/setup-node@v4
@@ -51,7 +51,7 @@ jobs:
       - name: Get GitHub OIDC Token
         if: github.repository == 'stainless-sdks/djelia-sdk-node'
         id: github-oidc
-        uses: actions/github-script@v6
+        uses: actions/github-script@v8
         with:
           script: core.setOutput('github_token', await core.getIDToken());
 
@@ -67,7 +67,7 @@ jobs:
     name: test
     runs-on: ${{ github.repository == 'stainless-sdks/djelia-sdk-node' && 'depot-ubuntu-24.04' || 'ubuntu-latest' }}
     steps:
-      - uses: actions/checkout@v4
+      - uses: actions/checkout@v6
 
       - name: Set up Node
         uses: actions/setup-node@v4
