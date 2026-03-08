@@ -12,7 +12,7 @@ describe('resource transcribe', () => {
   // Mock server tests are disabled
   test.skip('createTranscription: only required params', async () => {
     const responsePromise = client.api.v1.models.transcribe.createTranscription({
-      file: await toFile(Buffer.from('# my file contents'), 'README.md'),
+      file: await toFile(Buffer.from('Example data'), 'README.md'),
     });
     const rawResponse = await responsePromise.asResponse();
     expect(rawResponse).toBeInstanceOf(Response);
@@ -26,7 +26,7 @@ describe('resource transcribe', () => {
   // Mock server tests are disabled
   test.skip('createTranscription: required and optional params', async () => {
     const response = await client.api.v1.models.transcribe.createTranscription({
-      file: await toFile(Buffer.from('# my file contents'), 'README.md'),
+      file: await toFile(Buffer.from('Example data'), 'README.md'),
       translate_to_french: true,
     });
   });
@@ -34,7 +34,7 @@ describe('resource transcribe', () => {
   // Mock server tests are disabled
   test.skip('streamTranscription: only required params', async () => {
     const responsePromise = client.api.v1.models.transcribe.streamTranscription({
-      file: await toFile(Buffer.from('# my file contents'), 'README.md'),
+      file: await toFile(Buffer.from('Example data'), 'README.md'),
     });
     const rawResponse = await responsePromise.asResponse();
     expect(rawResponse).toBeInstanceOf(Response);
@@ -48,7 +48,7 @@ describe('resource transcribe', () => {
   // Mock server tests are disabled
   test.skip('streamTranscription: required and optional params', async () => {
     const response = await client.api.v1.models.transcribe.streamTranscription({
-      file: await toFile(Buffer.from('# my file contents'), 'README.md'),
+      file: await toFile(Buffer.from('Example data'), 'README.md'),
       translate_to_french: true,
     });
   });
