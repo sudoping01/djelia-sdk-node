@@ -1,5 +1,23 @@
 # Changelog
 
+## 0.1.0-alpha.7 (2026-03-24)
+
+Full Changelog: [v0.1.0-alpha.6...v0.1.0-alpha.7](https://github.com/sudoping01/djelia-sdk-node/compare/v0.1.0-alpha.6...v0.1.0-alpha.7)
+
+### Bug Fixes
+
+* **client:** preserve URL params already embedded in path ([e1a732f](https://github.com/sudoping01/djelia-sdk-node/commit/e1a732f1485147f839aba359682c1f32a112a330))
+
+
+### Chores
+
+* **ci:** skip uploading artifacts on stainless-internal branches ([e898e38](https://github.com/sudoping01/djelia-sdk-node/commit/e898e38b5f8b398fa6440dda2a81c8c4155f40bf))
+* **internal:** codegen related update ([3d42ce3](https://github.com/sudoping01/djelia-sdk-node/commit/3d42ce309f4c790ebfe8e15a4edd57b456855190))
+* **internal:** codegen related update ([7472efe](https://github.com/sudoping01/djelia-sdk-node/commit/7472efee6afc3c3bb66964d570973479e088c0bd))
+* **internal:** tweak CI branches ([dbc9e54](https://github.com/sudoping01/djelia-sdk-node/commit/dbc9e540859078cd412d73b2f55c4c4b1aa6af8f))
+* **internal:** update gitignore ([cfcd1ea](https://github.com/sudoping01/djelia-sdk-node/commit/cfcd1eacc1c274b620323017731453afa9f92c73))
+* update placeholder string ([aeec5ee](https://github.com/sudoping01/djelia-sdk-node/commit/aeec5ee07096988294623bef7137bba63b2d2f2a))
+
 ## 0.1.0-alpha.6 (2026-02-27)
 
 Full Changelog: [v0.1.0-alpha.5...v0.1.0-alpha.6](https://github.com/sudoping01/djelia-sdk-node/compare/v0.1.0-alpha.5...v0.1.0-alpha.6)

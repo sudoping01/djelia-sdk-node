@@ -21,6 +21,14 @@ import {
   TranslationLanguage,
 } from './translate';
 
+/**
+ * ### Supported Models
+ * Djelia provides access to powerful linguistic models tailored for African languages. Below are the models currently available:
+ *
+ * - **Transcription**: Convert Bambara audio into text with real-time streaming capabilities.
+ * - **Translation**: Translate text seamlessly between Bambara, French, and English.
+ * - **Text-to-Speech (Experimental)**: Transform Bambara text into natural, human-like speech.
+ */
 export class Models extends APIResource {
   translate: TranslateAPI.Translate = new TranslateAPI.Translate(this._client);
   transcribe: TranscribeAPI.Transcribe = new TranscribeAPI.Transcribe(this._client);
